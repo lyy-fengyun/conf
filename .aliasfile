@@ -1,0 +1,12 @@
+# .alisafile 存放alias别名的文件
+
+# config the comman command alias in the host 
+
+alias ls='ls --color=auto --time-style=long-iso'
+alias ll='ls -l'
+alias l.='ls -d .*'
+alias rm='rm -i'
+alias today='date +%Y%m%d'
+alias yesterday='date -d"-1 day ago" +%Y%m%d'
+aliss tomorrow='date -d"tomorrow" +%Y%m%d'
+
