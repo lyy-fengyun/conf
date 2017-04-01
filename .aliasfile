@@ -1,12 +1,21 @@
 # .alisafile 存放alias别名的文件
 
 # config the comman command alias in the host 
-
 alias ls='ls --color=auto --time-style=long-iso'
-alias ll='ls -l'
+alias ll='ls -lh'
 alias l.='ls -d .*'
+alias lsa='ls -lah'
+alias l='ls -lah'
+
+alias md='mkdir -p'
+alias rd=rmdir
+
+# 提示要删除的文件
 alias rm='rm -i'
+
 alias today='date +%Y%m%d'
 alias yesterday='date -d"-1 day ago" +%Y%m%d'
-aliss tomorrow='date -d"tomorrow" +%Y%m%d'
+alias tomorrow='date -d"tomorrow" +%Y%m%d'
 
+# 提示是否覆盖原有的文件
+alias cp='cp -i'
