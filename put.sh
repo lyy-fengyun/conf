@@ -7,11 +7,11 @@
 #
 ##########################
 
-IPS=
+IPS=(
+)
 
-for ip in "$IPS"
+for ip in "${IPS[@]}"
 do
 	scp .aliasfile $ip:~/
 	scp .bashrc $ip:~/
-	
 done
