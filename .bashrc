@@ -5,7 +5,7 @@ if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
 
-# export some useful variable
+# set the bash 
 export PS1="[\u@\h \W]\$ "
 
 # alias 

@@ -1,6 +1,6 @@
 # .alisafile 存放alias别名的文件
 
-# config the comman command alias in the host 
+# config the comman command alias in the host
 alias ls='ls --color=auto --time-style=long-iso'
 alias ll='ls -lh'
 alias l.='ls -d .*'
@@ -19,3 +19,11 @@ alias tomorrow='date -d"tomorrow" +%Y%m%d'
 
 # 提示是否覆盖原有的文件
 alias cp='cp -i'
+
+# 回退操作
+alias bk1='cd ..'
+alias bk2='cd ../..'
+alias bk3='cd ../../..'
+alias bk4='cd ../../../..'
+alias bk5='cd ../../../../..'
+alias bk6='cd ../../../../../..'
