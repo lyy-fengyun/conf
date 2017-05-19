@@ -11,3 +11,6 @@
 
 ## eclipse 配置文件
 eclipseworkspaceCFG.epf
+
+## mybits 配置文件
+mybatis-generator-config.xml
